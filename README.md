@@ -10,16 +10,7 @@ Este projeto utiliza a linguagem de programação Python e a biblioteca pandas u
 
 A análise é feita em cima de um conjunto de dados que contém informações sobre as atividades realizadas em cada dia da semana durante a semana de desenvolvimento.
 
-## Funcionamento do Código
-O código está dividido em diferentes partes, cada uma com uma tarefa específica:
-
-## Importação de bibliotecas: 
-Inicialmente, a biblioteca pandas é importada para manipular os dados em forma de DataFrame.
-
-## Carregamento dos Dados: 
-Os dados sobre as atividades de desenvolvimento são fornecidos em um dicionário. Esse dicionário é transformado em um DataFrame usando a função pd.DataFrame() do pandas.
-
- ## Métricas Calculadas:
+## Métricas Calculadas:
 1. Total de horas trabalhadas: Calcula a soma das horas trabalhadas em todos os dias da semana.
 2. Média diária de horas trabalhadas: Calcula a média das horas trabalhadas em cada dia da semana.
 3. Total de bugs corrigidos: Calcula a soma dos bugs corrigidos em todos os dias da semana.
@@ -35,6 +26,15 @@ Para executar o código e realizar a análise dos dados, siga os passos abaixo:
 2. Instale as bibliotecas necessárias: pandas e matplotlib. Isso pode ser feito através do pip ou de um ambiente de desenvolvimento Python como o Anaconda.
 3. Copie o código fornecido neste repositório para um ambiente Python, como o Jupyter Notebook ou o Google Colab.
 4. Execute o código linha a linha para obter as métricas e visualizações dos dados.
+
+## Funcionamento do Código
+O código está dividido em diferentes partes, cada uma com uma tarefa específica:
+
+## Importação de bibliotecas: 
+Inicialmente, a biblioteca pandas é importada para manipular os dados em forma de DataFrame.
+
+## Carregamento dos Dados: 
+Os dados sobre as atividades de desenvolvimento são fornecidos em um dicionário. Esse dicionário é transformado em um DataFrame usando a função pd.DataFrame() do pandas.
 
 ## Dicionário de Variáveis
 ### Estrutura do dicionário 'dados'
@@ -66,6 +66,7 @@ Para executar o código e realizar a análise dos dados, siga os passos abaixo:
 
 `produtividade_diaria`: Uma série que representa a produtividade diária (tarefas concluídas por hora trabalhada) para cada dia.
 
+## Resultados das análise
 ### Horas Trabalhadas
 - A média de horas trabalhadas durante a semana é de: **6.43 horas**.
 - A quarta tem a maior quantidade de horas trabalhadas: **8 horas**.
@@ -116,4 +117,5 @@ Jaymerson Ferreira
 ## Licença
 Não há licença.
 
-
+## Status do projeto
+Finalizado
